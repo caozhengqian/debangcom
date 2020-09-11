@@ -1,8 +1,8 @@
 <template>
     <div class='ZhuanYe'>
         <p>专业市场总结的组件</p>
-        <img style="width:500px;height:250px;float:left" :src="title"/>
-        <img style="width:500px;height:250px;float:right" :src="addCity"/>
+        <img style="width:100%;height:500px;" :src="title"/>
+        <img style="width:100%;height:500px;margin-top: 200px" :src="addCity"/>
     </div>
 
 </template>
