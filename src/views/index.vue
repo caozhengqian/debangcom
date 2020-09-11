@@ -1,10 +1,15 @@
 <template>
   <div class="indexPage">
       <p>
-          <span @click="redirectPage(1)" class="point">德邦前端组件库</span>
+          <span @click="redirectPage(1)" class="point">
+
+               <span style="color: blue;font-size: 30px">德邦前端组件库</span>
+          </span>
       </p>
       <p>
-          <span @click="redirectPage(2)" class="point">项目名：专业市场</span>
+          <span @click="redirectPage(2)" class="point">项目名：
+              <span style="color: red;">专业市场</span>
+          </span>
       </p>
 
   </div>
